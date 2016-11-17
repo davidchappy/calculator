@@ -1,0 +1,63 @@
+body, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px 0 0 15px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.row {
+  display: block;
+}
+
+#clear {
+  font-size: 0.8em;
+}
+
+#display {
+  width: 330px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0;
+  cursor: text;
+  text-align: right;
+  font-size: 1.5em;
+}
+
+.row div {
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid gray;
+  width: 100px;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  box-sizing: border-box;
+  margin: 5px;
+  background: #eee;
+  color: #000;
+}
+
+.row div:hover {
+  box-shadow: 0 0 2px #555;
+}
+
+div.operator {
+  background: #bbb;  
+}
+
+div.equals {
+  background: #4d90fe;
+  color: #fff;
+}
+
+div.description {
+  margin-top: 15px;
+  width: 450px;
+}
